@@ -40314,11 +40314,11 @@ A.qv.prototype={
 J(a){var s=null
 return A.bD(s,B.zn,B.l,s,s,B.y5,s,s,s,s,s,s,s)}}
 A.anW.prototype={
-$1(a){var s,r=null,q=this.a,p=t.w,o=q.L(p).f,n=this.b,m=A.LK(n.a,B.xb),l=q.L(p).f
+$1(a){var s,r=null,q=this.a,p=t.w,o=q.L(p).f.a.a<600,n=q.L(p).f.a.a,m=o?n*0.9:n*0.5,l=this.b,k=A.LK(l.a,B.xb),j=o?n*0.9:n*0.5
 p=q.L(p).f
 s=t.D
-n=A.LY(A.eM(A.a([A.LK(n.b,B.lq),B.cL,new A.k0(B.m_,r,r,A.cp(A.aCn("dd MMM, yyyy | h:mm a").qQ(0,n.c),r,r,r,B.Ls,r,r),r)],s),B.at,B.a2,B.N))
-return A.as8(A.a([A.apN(B.OG,new A.anV(q),r)],s),new A.f8(new A.ai(0,l.a.a*0.5,0,p.a.b*0.7),n,r),!0,new A.f8(new A.ai(0,o.a.a*0.5,0,1/0),m,r))},
+l=A.LY(A.eM(A.a([A.LK(l.b,B.lq),B.cL,new A.k0(B.m_,r,r,A.cp(A.aCn("dd MMM, yyyy | h:mm a").qQ(0,l.c),r,r,r,B.Ls,r,r),r)],s),B.at,B.a2,B.N))
+return A.as8(A.a([A.apN(B.OG,new A.anV(q),r)],s),new A.f8(new A.ai(0,j,0,p.a.b*0.7),l,r),!0,new A.f8(new A.ai(0,m,0,1/0),k,r))},
 $S:135}
 A.anV.prototype={
 $0(){A.kG(this.a,!1).d9()},
